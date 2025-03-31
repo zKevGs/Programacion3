@@ -1,0 +1,103 @@
+body {
+  background-color: brown;
+}
+
+/* bos-sizing: border-box */
+
+/* div {
+color: aqua;
+background-color: black;
+
+width: 20px;
+padding: 0 10px;
+border: 2px solid red;
+
+box-sizing: border-box;
+} */
+
+/* div {
+color: azure;
+text-align: center;
+
+width: 200px;
+padding: 10px;
+border: 2px;
+
+margin: 0 auto;
+
+border: 1px solid red;
+background-color: black;
+
+box-sizing: border-box;
+}
+.box {
+margin: 0 auto;
+margin-top: 10px;
+width: 50px;
+height: 10px;
+
+position: relative;
+
+margin-top: -30px; 
+
+background-color: aquamarine;
+border: 1px solid blue;
+
+    / tercera dimension /
+z-index: 2;
+}
+ */
+
+/* positions */
+div {
+  color: #f0f0f0;
+  background-color: gray;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid red;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}
+
+.static {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.absolute {
+  position: absolute;
+  top: 0px;
+  left: calc(50vw - (150px / 2));
+}
+
+.fixed {
+  position: fixed;
+  right: 0px;
+  top: calc(50vw - (40px / 2));
+}
+
+.sticky {
+  position: sticky;
+  top: 0; /* dependiendo donde lo pongas es donde se pega */
+  bottom: calc(50 vh - 20px);
+}
+
+.box {
+  width: 80%;
+  height: 200px;
+  margin: 10px auto;
+  padding: 0px;
+  border: 1px solid blue;
+  position: relative;
+}
+
+.relative {
+  margin: 0;
+
+  position: sticky;
+  right: 0px;
+  top: 0px;
+}

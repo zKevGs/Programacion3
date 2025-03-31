@@ -1,0 +1,67 @@
+/* clases */
+
+/* .title {
+  color: blueviolet;
+}
+.hola {
+  color: blue;
+  background-color: cadetblue;
+}
+
+/* id´s */
+
+/* #hola {
+  color: aqua;
+  background-color: black;
+}
+ */
+
+/* Margenes(margin) */
+
+/* body {
+  margin: 0;
+} 
+h1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin: 8px 10px 8px 10px;
+}
+h1 {
+  margin: 16px 10px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+h1{
+  margin: auto;
+}
+
+*/
+
+/*** border ***/
+
+/* 
+h1 {
+  padding: 10px;
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
+}
+
+h1 {
+  border: 2px blue solid;
+}
+
+h1 {
+  min-width: 50px;
+  max-width: 500px;
+  border: 2px solid red;
+}
+*/

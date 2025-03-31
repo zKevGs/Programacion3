@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Hola soy el form</h1>
+      <span>Click al <a href="../index.html">inicio</a></span>
+
+      <form action="/enviar" method="POST">
+        <h2>Formulario de contacto</h2>
+        <section>
+          <h4></h4>
+        </section>
+
+        <section>
+          <fieldset>
+            <legend>pone tus datos rey</legend>
+            <h4>tus datos personales</h4>
+            <div>
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+
+            <div>
+              <label for="email">email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div>
+              <label for="phone">Telefono</label>
+              <input type="number" id="phone" name="numero" required />
+            </div>
+
+            <div>
+              <input type="range" name="" id="" />
+            </div>
+
+            <div>
+              <label for="genero">Genero:</label>
+              <select name="genero" id="genero">
+                <option value="" selected>seleccione un Genero</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">otro</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="">intereses: </label>
+              <input type="checkbox" name="intereses" />
+              <label for="deportes">Deportes</label>
+              <input type="checkbox" name="intereses" />
+              <label for="musica">Musica</label>
+            </div>
+
+            <div>
+              <input type="radio" id="option1" name="eleccion" />
+              <label for="option1">Opcion1</label>
+              <input type="radio" id="option2" name="eleccion" />
+              <label for="option2">Opcion2</label>
+            </div>
+            <div>
+              <h5>dejanos un comentario</h5>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+              <label for="file">seleccione un archivo</label>
+              <input type="file" name="file" id="file" />
+            </div>
+
+            <div>
+              <input type="reset" name="resetear" />
+            </div>
+            <div>
+              <input type="submit" name="" id="" />
+            </div>
+          </fieldset>
+        </section>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
