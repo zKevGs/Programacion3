@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #e0e0e0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw; /* Cambio de max-width */
+  height: 100vh; /* Asegúrate de ocupar todo el alto del viewport */
+}
+ul {
+  max-width: 100px;
+}
