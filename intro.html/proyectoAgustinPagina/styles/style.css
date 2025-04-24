@@ -1,0 +1,51 @@
+@import url(./global.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+body {
+  background: var(--fondo);
+}
+
+@media (width <= 375px) {
+  header {
+    background-color: var(--superficie2);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    position: sticky;
+    top: 0;
+  }
+
+  .cuadradito {
+    background: var(--primary-color);
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+  }
+  .menu-button {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border: none;
+  }
+  .rayita {
+    height: 4px;
+    width: 100%;
+    margin: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+  }
+}
+
+/* .seccion1 {
+  background-color: var(--primary-color);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+} */
