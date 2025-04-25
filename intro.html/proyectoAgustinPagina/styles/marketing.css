@@ -1,0 +1,85 @@
+@import url(./global.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background: var(--fondo);
+}
+
+@media (width <= 375px){
+     /* separacion entre cajas */
+
+  .div-main{
+    padding: 16px;
+  }
+
+ /* todo el header */
+  header {
+    background-color: var(--superficie2);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    position: sticky;
+    top: 0;
+  }
+/* supuesto logo */
+  .cuadradito {
+    background: var(--primary-color);
+    height: 30px;
+    width: 60px;
+    border-radius: var(--border4px);
+  }
+  /* futura barra de menu desplegable */
+  .menu-button {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border: none;
+  }
+  .rayita {
+    height: 4px;
+    width: 100%;
+    margin: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+  }
+  .seccion1{
+    background: linear-gradient(to right, var(--primary-color), var(--primary-color-claro));
+    height: 120px;
+    border-radius: var(--border8px);
+    padding: var(--padding24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--marginbottom);
+    color: var(--primary);
+  }
+
+   /* todos los h3 */
+   h3{
+    color: var(--primary);
+    font-size: 18px;
+  }
+
+   /* comentarios de las cards */
+   p{
+    color: var(--secundary);
+    margin-bottom: var(--marginbottom);
+  }
+
+  /* articulos de servicios */
+  .art-service{
+    background: var(--superficie2);
+    border-radius: var(--border8px);
+    padding: var(--padding16);
+    margin: var(--marginbottom);
+    color: var(--primary);
+    border: 1px solid var(--borde-negro);
+  }
+}
